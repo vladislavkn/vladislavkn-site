@@ -17,9 +17,3 @@
 .contacts__item {
   padding: 0.8rem;
 }
-
-@media screen and (max-width: 512px) {
-  .contacts__list {
-    justify-content: center;
-  }
-}
