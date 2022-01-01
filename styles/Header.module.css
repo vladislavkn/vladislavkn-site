@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  max-width: 48rem;
+}
+
+.header__photo-wrapper {
+  background-color: var(--lightgray);
+  margin-right: 1.6rem;
+  min-width: 12rem;
+  box-shadow: 0.4rem 0.4rem 0 blue;
+  font-size: 0;
+}
+
+.header__title {
+  font-size: 3.2rem;
+  color: car(--black);
+  margin-bottom: 0.8rem;
+}
+
+.header__description {
+  font-size: 1.4rem;
+  color: dimgray;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media screen and (max-width: 512px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header__photo-wrapper {
+    margin-bottom: 0.8rem;
+  }
+}
