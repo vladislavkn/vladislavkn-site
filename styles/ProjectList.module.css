@@ -1,0 +1,15 @@
+.projects {
+  max-width: 72rem;
+  width: 100%;
+}
+
+.projects__title {
+  font-size: 2.4rem;
+  color: car(--black);
+}
+
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1.6rem;
+}
