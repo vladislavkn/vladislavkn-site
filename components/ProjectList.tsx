@@ -1,6 +1,7 @@
 import { Project as ProjectType } from '../types'
 import styles from '../styles/ProjectList.module.css'
 import Project from './Projects'
+import joinClasses from '../utils/joinClasses'
 
 export type ProjectListProps = {
   projects: ProjectType[]
@@ -8,7 +9,7 @@ export type ProjectListProps = {
 
 const ProjectList: React.FC<ProjectListProps> = ({ projects }) => (
   <section id="projects" className="section">
-    <div className={styles['projects']}>
+    <div className={joinClasses(styles['projects'], 'section-content-wide')}>
       <h2 className={styles['projects__title']}>Мои проекты</h2>
       <div className={styles['projects__list']}>
         {projects.map((project) => (

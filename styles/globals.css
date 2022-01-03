@@ -47,6 +47,11 @@ a:visited {
   justify-content: center;
 }
 
+.section-content-wide {
+  max-width: 72rem;
+  width: 100%;
+}
+
 @media screen and (max-width: 512px) {
   .section {
     padding-top: 4rem;
