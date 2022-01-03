@@ -15,20 +15,11 @@ type HomeProps = {
   aboutText: string | null
 }
 
-const links: NavProps['links'] = [
-  {
-    name: 'Обо мне',
-    href: '#about',
-  },
-  {
-    name: 'Проекты',
-    href: '#projects',
-  },
-  {
-    name: 'Контакты',
-    href: '#contacts',
-  },
-]
+const links: NavProps['links'] = {
+  'Обо мне': '#about',
+  Проекты: '#projects',
+  Контакты: '#contacts',
+}
 
 const Home: NextPage<HomeProps> = (props) => {
   const { aboutText, contacts, projects } = props
