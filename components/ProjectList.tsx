@@ -1,6 +1,6 @@
 import { Project as ProjectType } from '../types'
 import styles from '../styles/ProjectList.module.css'
-import Project from './Projects'
+import Project from './Project'
 import joinClasses from '../utils/joinClasses'
 
 export type ProjectListProps = {

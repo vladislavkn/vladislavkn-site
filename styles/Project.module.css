@@ -9,6 +9,10 @@
   color: var(--black);
 }
 
+.project__title-link {
+  font-size: inherit;
+}
+
 .project__description {
   font-size: 1.4rem;
   color: dimgray;
