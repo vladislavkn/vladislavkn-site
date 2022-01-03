@@ -26,7 +26,7 @@ const Home: NextPage<HomeProps> = (props) => {
   return (
     <>
       <Head>
-        <title>Владислав Кнышов - портфолио</title>
+        <title>Владислав Кнышов (vladislavkn) - Портфолио</title>
         <meta name="description" content={aboutText ?? ''} />
       </Head>
       <Nav links={links} />
