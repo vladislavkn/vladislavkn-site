@@ -2,7 +2,7 @@ import type { GetStaticProps, NextPage } from 'next'
 import getContacts from '../lib/getContacts'
 import getProjects from '../lib/getProjects'
 import getAboutText from '../lib/getAboutText'
-import { Contact } from '../types'
+import { Contact, Project } from '../types'
 import Nav, { NavProps } from '../components/Nav'
 import Header from '../components/Header'
 import ProjectList from '../components/ProjectList'
@@ -11,7 +11,7 @@ import Head from 'next/head'
 
 type HomeProps = {
   contacts: Contact[] | null
-  projects: any[] | null
+  projects: Project[] | null
   aboutText: string | null
 }
 
