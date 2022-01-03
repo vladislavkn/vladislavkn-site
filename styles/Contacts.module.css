@@ -1,6 +1,6 @@
 .contacts__title {
   font-size: 2.4rem;
-  color: car(--black);
+  color: var(--black);
 }
 
 .contacts__list {

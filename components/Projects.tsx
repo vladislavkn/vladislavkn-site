@@ -7,7 +7,7 @@ export type ProjectProps = {
 
 const Project: React.FC<ProjectProps> = ({ project }) => (
   <article className={styles['project']}>
-    <h5 className={styles['project__title']}>{project.name}</h5>
+    <h3 className={styles['project__title']}>{project.name}</h3>
     <p className={styles['project__description']}>{project.description}</p>
     <ul className={styles['project-stack-list']}>
       {project.stack.map((stackItem) => (
