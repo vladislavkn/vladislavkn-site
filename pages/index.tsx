@@ -7,6 +7,7 @@ import Nav, { NavProps } from '../components/Nav'
 import Header from '../components/Header'
 import ProjectList from '../components/ProjectList'
 import Contacts from '../components/Contacts'
+import Head from 'next/head'
 
 type HomeProps = {
   contacts: Contact[] | null
@@ -33,6 +34,10 @@ const Home: NextPage<HomeProps> = (props) => {
   const { aboutText, contacts, projects } = props
   return (
     <>
+      <Head>
+        <title>Владислав Кнышов - портфолио</title>
+        <meta name="description" content={aboutText ?? ''} />
+      </Head>
       <Nav links={links} />
       {aboutText && <Header aboutText={aboutText} />}
       {projects && <ProjectList projects={projects} />}
