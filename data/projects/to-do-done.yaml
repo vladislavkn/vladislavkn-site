@@ -1,0 +1,7 @@
+name: ✔️ To Do Done
+description: Мобильное приложение-список дел, которое позволяет спланировать день четко по часам. Можно разбить задачи на категории и переносить в список текущих те, что ожилают выполнения. Доступно в Google Play Market
+stack:
+  - React Native
+  - TypeScript
+  - Expo
+link: https://github.com/vladislavkn/to-do-done
