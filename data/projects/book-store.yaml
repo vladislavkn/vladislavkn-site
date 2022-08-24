@@ -1,0 +1,7 @@
+name: 📙 Book store
+description: Vue-приложения для сохранения списка прочитанных книг с поиском книг с подсказками и авторизацией firebase
+stack:
+  - Vue
+  - Firebase
+  - Tailwind
+link: https://github.com/vladislavkn/Book-store
